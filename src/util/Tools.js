@@ -1,4 +1,8 @@
 import moment from 'moment';
+
+const getUA = () => {
+  return navigator.userAgent.toLowerCase();
+};
 export default class Tools {
   /**
    * 对下拉菜单的数据进行处理，以满足Select公共控件对于字段的要求
@@ -33,6 +37,12 @@ export default class Tools {
         id: item[id],
       };
     });
+  };
+
+  static isAndroid = () => {
+    const ua = window.navigator.userAgent.toLocaleLowerCase();
+    const isAndroid = /android/.test(ua);
+    return isAndroid;
   };
   /**
    * 生成tabal的columns方法
@@ -297,6 +307,32 @@ export default class Tools {
     } else {
       return url;
     }
+  };
+
+  static isIOS = () => {
+    let ua = navigator.userAgent;
+    return !!ua.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+  };
+
+  static isJuApp = () => {
+    return Tools.getBrowserType() === 2;
+  };
+
+  static getBrowserType = () => {
+    var ua = getUA();
+    if (ua.indexOf('micromessenger') != -1) {
+      return 1; // 微信浏览器
+    }
+
+    if (ua.indexOf('baianjuapp_ju') != -1) {
+      return 2; // 小居App webView(百安居系App)
+    }
+
+    if (ua.indexOf('baianjuapp') != -1) {
+      return 3; // 百安居App webView(百安居系App)
+    }
+
+    return 0;
   };
 
   static pointToPercent = (point) => {

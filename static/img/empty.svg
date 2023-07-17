@@ -1,0 +1,49 @@
+<svg width="150" height="100" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <defs transform="translate(-2.51397 -3.07263) translate(-14 -7) translate(2 -18) translate(-3 0) translate(-79 -3) translate(20 -77) translate(-126 -2) translate(53 -108) translate(-280 -224) translate(455.342 0) translate(0 469.965)">
+   <linearGradient id="svg_6" y2="-17.635%" x2="52.348%" y1="74.611%" x1="52.348%">
+    <stop offset="0%" stop-opacity="0" stop-color="#DEDEDE"/>
+    <stop offset="100%" stop-opacity="0.3" stop-color="#A9A9A9"/>
+   </linearGradient>
+   <linearGradient id="svg_5" y2="0%" x2="44.79%" y1="100%" x1="44.79%">
+    <stop offset="0%" stop-opacity="0" stop-color="#FFF"/>
+    <stop offset="100%" stop-opacity="0.373" stop-color="#96A1C5"/>
+   </linearGradient>
+   <linearGradient id="svg_4" y2="-19.675%" x2="50%" y1="100%" x1="50%">
+    <stop offset="0%" stop-opacity="0" stop-color="#FFF"/>
+    <stop offset="100%" stop-opacity="0.15" stop-color="#919191"/>
+   </linearGradient>
+   <linearGradient id="svg_16" y2="-5.316%" x2="63.345%" y1="100%" x1="63.345%">
+    <stop stop-opacity="0.99219" offset="0" stop-color="#dae0ea"/>
+    <stop stop-opacity="0.98438" offset="1" stop-color="#fcf9f9"/>
+    <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+    <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+    <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+    <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+    <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+    <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+    <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+    <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+    <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+    <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+    <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+    <stop offset="NaN" stop-opacity="0" stop-color="0"/>
+   </linearGradient>
+   <linearGradient spreadMethod="pad" id="svg_7" y2="100%" x2="50%" y1="0%" x1="50%">
+    <stop stop-opacity="0.98828" offset="0" stop-color="#d6d4d4"/>
+    <stop stop-opacity="0.99609" offset="1" stop-color="#ffffff"/>
+   </linearGradient>
+   <linearGradient id="svg_3" y2="44.95%" x2="50%" y1="0%" x1="50%">
+    <stop stop-opacity="0.98828" offset="0.1875" stop-color="#dddddd"/>
+    <stop stop-opacity="0.98047" offset="1" stop-color="#c1c1c1"/>
+   </linearGradient>
+  </defs>
+  <path opacity="0.8" fill="url(#svg_6)" d="m36.41648,25.19319c1.326,-4.192 2.56,-6.802 3.7,-7.831c3.157,-2.848 7.522,-1.298 8.45,-1.076c3.26,0.782 2.2,-4.364 4.997,-5.41c1.864,-0.697 3.397,0.155 4.6,2.556c1.065,-2.24 2.688,-3.266 4.869,-3.083c3.272,0.277 4.417,11.328 8.913,8.909c4.497,-2.42 10.01,-2.973 12.365,0.623c0.509,0.778 0.704,-0.429 4.166,-4.55c3.462,-4.122 6.914,-5.938 13.996,-3.538c3.22,1.09 5.868,4.045 7.947,8.864c0,6.878 5.06,10.95 15.178,12.213c15.179,1.895 3.397,18.214 -15.178,22.993c-18.576,4.78 -61.343,7.36 -84.551,-4.716c-15.472,-8.049 -11.956,-16.701 10.547,-25.954l0.001,0z" id="svg_1"/>
+  <ellipse ry="6.478" rx="27.987" cy="79.49519" cx="74.47648" fill="url(#svg_5)" id="svg_8"/>
+  <path opacity="0.675" fill="url(#svg_4)" d="m121.72648,87.57819c-21.043,5.278 -92.87,-0.759 -100.515,-3.516c-3.721,-1.343 -7.075,-3.868 -10.061,-7.576a2.822,2.822 0 0 1 2.198,-4.593l125.514,0c2.605,6.938 -3.107,12.166 -17.136,15.685z" id="svg_9"/>
+  <path fill="url(#svg_3)" d="m95.95248,62.13419l-9.571,-11.192a2.434,2.434 0 0 0 -1.837,-0.86l-20.58,0c-0.706,0 -1.377,0.324 -1.837,0.86l-9.571,11.192l0,6.144l43.396,0l0,-6.144z" id="svg_10"/>
+  <path fill="url(#svg_16)" d="m93.24048,68.50419l-8.377,-9.748a2.136,2.136 0 0 0 -1.622,-0.725l-17.974,0c-0.617,0 -1.22,0.256 -1.622,0.725l-8.377,9.748l0,5.354l37.972,0l0,-5.354z" id="svg_11"/>
+  <path fill="url(#svg_7)" d="m95.95248,75.31919c0,0.853 -0.384,1.62 -0.99,2.134l-0.123,0.1a2.758,2.758 0 0 1 -1.67,0.56l-37.829,0c-0.342,0 -0.669,-0.062 -0.971,-0.176l-0.15,-0.06a2.802,2.802 0 0 1 -1.663,-2.559l0,-13.117l10.529,0c1.163,0 2.1,0.957 2.1,2.118l0,0.015c0,1.162 0.948,2.099 2.111,2.099l13.916,0a2.113,2.113 0 0 0 2.111,-2.107c0,-1.166 0.938,-2.125 2.1,-2.125l10.53,0l-0.001,13.118z" id="svg_12"/>
+ </g>
+</svg>

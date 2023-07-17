@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Layout } from 'antd';
 import { connect } from 'react-redux';
@@ -10,7 +10,7 @@ class BasicLayout extends React.PureComponent {
   socket = null;
 
   static propTypes = {
-    getCurrentUser: PropTypes.func,
+    // getCurrentUser: PropTypes.func,
   };
 
   static defaultProps = {
@@ -23,7 +23,7 @@ class BasicLayout extends React.PureComponent {
   }
 
   componentDidMount() {
-    this.props.getCurrentUser();
+    // this.props.getCurrentUser();
   }
 
   render() {

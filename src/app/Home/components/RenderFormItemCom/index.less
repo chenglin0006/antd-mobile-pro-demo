@@ -1,0 +1,52 @@
+.right-choose-item {
+  .adm-list-item-content {
+    align-items: center;
+  }
+  .adm-list-item-content-main {
+    text-align: right;
+  }
+}
+
+.placeholderSelf {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ccc;
+  &.isChoosed {
+    font-size: 16px;
+    color: var(--adm-primary-text);
+  }
+}
+
+.pickerItem {
+  .adm-list-item-content-main {
+    color: var(--adm-primary-text);
+  }
+  .adm-check-list-item-extra {
+    color: var(--adm-color-complaintPrimary);
+  }
+  .adm-cascader-header {
+    padding: 14px 16px;
+  }
+  .adm-cascader-view-tabs {
+    .adm-tabs-tab-line {
+      display: none;
+    }
+    .adm-tabs-tab-list {
+      padding: 7px 0;
+    }
+    .adm-tabs-tab-active .adm-cascader-view-header-title {
+      color: var(--adm-primary-text);
+    }
+  }
+
+  .adm-cascader-header-button,
+  .adm-picker-header-button {
+    color: var(--adm-color-complaintPrimary);
+  }
+  .adm-cascader-header-title {
+    color: #1d2129;
+  }
+}
+.adm-popup-body:has(.pickerItem) {
+  border-radius: 8px 8px 0 0;
+}
