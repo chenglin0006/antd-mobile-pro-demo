@@ -3,10 +3,11 @@ import Axios from 'axios';
 import { Toast } from 'antd-mobile';
 import _forEach from 'lodash.foreach';
 import _isEmpty from 'lodash.isempty';
-import urlConfig from 'config/url';
+// import urlConfig from 'config/url';
 import store from '@/store/index';
 import Device from './Device';
 import Tools from './Tools';
+import urlConfig from '../../config/url';
 
 class Remote {
   constructor() {

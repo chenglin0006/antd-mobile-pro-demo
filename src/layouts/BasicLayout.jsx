@@ -1,7 +1,7 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { Layout } from 'antd';
+// import { Layout } from 'antd';
 import { connect } from 'react-redux';
 import './BasicLayout.less';
 import Contents from './Contents';
@@ -32,15 +32,7 @@ class BasicLayout extends React.PureComponent {
         <Switch>
           <Route
             render={() => {
-              return (
-                <Layout className="todocenter-container">
-                  <Layout className="right-layout">
-                    <Layout className="ant-layout-ie9">
-                      <Contents />
-                    </Layout>
-                  </Layout>
-                </Layout>
-              );
+              return <Contents />;
             }}
           />
         </Switch>
