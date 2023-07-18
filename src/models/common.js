@@ -36,44 +36,9 @@ export default {
       return data;
     },
 
-    async getTodoMetaData() {
-      const { data } = await Services.getTodoMetaData();
-      this.save({
-        systemEnum: data?.systemList || [],
-        handleStatusEnum: data?.handleStatus || [],
-        instanceStatusEnum: data?.instanceStatus || [],
-        taskStatusEnum: data?.taskFlowStatus || [],
-      });
-      return data;
-    },
-
-    async logout() {
-      // message.error('登录失败, 请在通用管理后台重新登录后拿到accessToken后再访问');
-      // localhost.bnq.com.cn:8009?accessToken=xxx
-      // https://todo-dev.bnqoa.com?accessToken=xxx
-    },
-
-    async getRoleList(params) {
-      const { data = [] } = await Services.getRoleList(params);
-      return data;
-    },
-    async getArrayList(params) {
-      const { data = [] } = await Services.getArrayList(params);
-      return data;
-    },
-    async getJobList(params) {
-      const { data = [] } = await Services.getJobList(params);
-      return data;
-    },
-    async getEmployeeListByKeyword(params) {
-      const { data = [] } = await Services.getEmployeeListByKeyword(params);
-      return data;
-    },
-
-    async uploadFile(params) {
-      params.bucket = 'bnq-zhima';
-      const { content } = await Services.uploadFile(params);
-      return content;
+    async upload(params) {
+      const res = await Services.upload(params);
+      return res;
     },
   },
 };

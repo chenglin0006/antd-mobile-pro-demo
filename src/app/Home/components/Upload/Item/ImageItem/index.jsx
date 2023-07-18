@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import { ImageViewer } from 'antd-mobile';
 import { PictureOutline } from 'antd-mobile-icons';
+import deleteIcon from '../../images/icon.png';
 import './index.less';
 
 function ImageItem({ handleDelete, isSuccess, fileUrl, isDelete, index, fileList }) {
@@ -37,7 +38,7 @@ function ImageItem({ handleDelete, isSuccess, fileUrl, isDelete, index, fileList
         </div>
         {isDelete && (
           <div className="delete-wrapper" onClick={handleDelete}>
-            <img className="delete-icon" alt="" />
+            <img className="delete-icon" src={deleteIcon} alt="" />
           </div>
         )}
       </div>

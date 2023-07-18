@@ -541,7 +541,7 @@ class Remote {
       // default: `${urlConfig[env].apiUrlFilter}`,
       auth: `${urlConfig[env].authUrl}`,
       resource: `${urlConfig[env].resourceUrl}`,
-      aliOss: `${urlConfig[env].aliOssUrl}${urlConfig[env].ossFilter}`,
+      oss: `${urlConfig[env].aliOssUrl}`,
       csc: `${urlConfig[env].cscUrl}${urlConfig[env].cscUrlFilter}`,
       empcsc: `${urlConfig[env].empUrl}${urlConfig[env].empUrlFilter}`, // 内部服务
       store: `${urlConfig[env].storeUrl}${urlConfig[env].storeFilter}`,
